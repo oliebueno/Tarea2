@@ -35,7 +35,3 @@ class Cilindro < Circulo
         PI * @radio**2 * @altura
     end
 end
-
-ci = Cilindro.new(-5, -10)
-puts ci.area
-puts ci.volumen

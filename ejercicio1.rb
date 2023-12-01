@@ -16,6 +16,7 @@ class Circulo
     end
 end
 
+#Clase cilindro
 class Cilindro < Circulo
     attr_accessor :altura
     def initialize(radio, altura)
